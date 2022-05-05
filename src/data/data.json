@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "We Code your Ideas",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Forget Past Mistakes. Forget Failures. Forget Everything except what you're going to do now and to do it."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At WinnyWeb, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development, tailor made applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Team Managemnt",
+      "Problem Solving",
+      "Working on Latest Technologies",
+      "Positive and Inspiring Company Culture"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "24/7 Support",
+      "100% Customer Satisfication",
+      "Quality project Delivery",
+      " Creative and Focused Company Staff"
     ]
   },
   "Gallery": [
@@ -67,78 +67,64 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-laptop",
+      "name": "Web Application",
+      "text": "Our website developers provide expert web application development and web design services to our clients. Appnovation offers a variety of website design and development services, responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies. like Reactjs , Vuejs etc"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-mobile",
+      "name": "Mobile Application",
+      "text": "We have all the expertise you need to produce fully-fledged, stable, and scalable mobile applications, including Swift , Kotlin , ReactNative , Flutter"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-key",
+      "name": "API Integration",
+      "text": "To help you automate and streamline workflows, we achieve seamless integration of your web app/portal with a CMS and your software infrastructure via custom APIs. When adding new functional modules to already developed web solutions, our integration experts use the CI/CD pipeline to allow for smooth deployment without impeding the work of your web app."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-search",
+      "name": "Optimization and evolution",
+      "text": "To keep in sync with your business needs and user expectations, we continuously optimize and enhance your web app, introducing new relevant functionality. Relying on our mature DevOps culture, we deploy urgent fixes within 1-2 days and release planned app updates every 2-6 weeks."
+    },
+    {
+      "icon": "fa fa-life-ring",
+      "name": "24/7 Support",
+      "text": "Providing L1, L2 and L3 support levels, we troubleshoot your web app and resolve any emerging issues in usage, configurations or code. Our support ensures high availability and failsafe functionality of your web app, web portal, or another kind of a web-based solution, making for stability of workflows and high user satisfaction."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "UX/UI Designer",
+      "text": "WinnyWeb’s UX and UI experts create intuitive navigation and appealing interfaces for your web software. Our responsive web app design guarantees smooth digital experience across all devices, thus leading to higher user satisfaction and increased conversion rate."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Hands down, one of the best developers I have ever worked with. He is consistent, thorough and comprehends everything that needs to be done. If you need someone to get your project off the ground. Nabeel is the one to go to!\"",
+      "name": " Makarchuk "
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"We had so many revisions along the way, and had to extend our deadline multiple times because of our own delays. Nabeel was nothing but professional, and extremely patient in letting us figure out and make changes to the final product. This is the second time we have used him and will continue to use him on projects in the future.\"",
+      "name": "Johnathan"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Great Hamza,I was delighted to work with him. Very comprehensive React app built and professionally implemented. Will work with him again for sure. Highly recommended..\"",
+      "name": "Dean Flanagan"
     }
   ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Nabeel Shafique",
+      "job": "Senior Software Engineer"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/02.jpeg",
+      "name": "Hamza Ayub",
+      "job": "Front-End Developer"
     },
     {
       "img": "img/team/03.jpg",
@@ -152,10 +138,10 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
+    "address": "Garden Town Multan, Pakistan ",
+    "phone": "+92226127442",
+    "email": "contact@winnyweb.com",
+    "facebook": "https://www.facebook.com/winnyweb",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },

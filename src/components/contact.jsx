@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_xl96fzn', 'template_po261b3', e.target, 'user_nQPFcDYSNcXQP7kJeIhEH'
       )
       .then(
         (result) => {
@@ -105,14 +105,14 @@ export const Contact = (props) => {
                 {props.data ? props.data.address : 'loading'}
               </p>
             </div>
-            <div className='contact-item'>
+            {/* <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
-            </div>
+            </div> */}
             <div className='contact-item'>
               <p>
                 <span>
@@ -147,7 +147,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id='footer'>
+      {/* <div id='footer'>
         <div className='container text-center'>
           <p>
             &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
@@ -156,7 +156,7 @@ export const Contact = (props) => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
