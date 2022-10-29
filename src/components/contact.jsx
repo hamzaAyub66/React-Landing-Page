@@ -131,7 +131,7 @@ export const Contact = (props) => {
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
@@ -140,7 +140,7 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

@@ -69,12 +69,12 @@
     {
       "icon": "fa fa-laptop",
       "name": "Web Application",
-      "text": "Our website developers provide expert web application development and web design services to our clients. Appnovation offers a variety of website design and development services, responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies. like Reactjs , Vuejs etc"
+      "text": "Our website developers provide expert web application development and web design services to our clients. WinnyWeb offers a variety of website design and development services, responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies. like Reactjs, Vuejs, Angularjs etc"
     },
     {
       "icon": "fa fa-mobile",
       "name": "Mobile Application",
-      "text": "We have all the expertise you need to produce fully-fledged, stable, and scalable mobile applications, including Swift , Kotlin , ReactNative , Flutter"
+      "text": "We have all the expertise you need to produce fully-fledged, stable, and scalable mobile applications, including Swift, SwiftUI, Kotlin"
     },
     {
       "icon": "fa fa-key",
@@ -114,7 +114,6 @@
       "name": "Dean Flanagan"
     }
   ],
-
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -138,8 +137,8 @@
     }
   ],
   "Contact": {
-    "address": "Garden Town Multan, Pakistan ",
-    "phone": "+92226127442",
+    "address": "Multan, Pakistan ",
+    "phone": "+923226127442",
     "email": "contact@winnyweb.com",
     "facebook": "https://www.facebook.com/winnyweb",
     "twitter": "twitter.com",
