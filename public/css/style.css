@@ -85,8 +85,13 @@ hr {
   font-size: 24px;
   font-weight: 700;
   color: #333;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  height: auto;
 }
+#menu a.navbar-brand img {
+  height: 50px;
+}
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;

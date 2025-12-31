@@ -15,8 +15,12 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-          <img src="img/logo.jpeg" height='75px' alt="" />
+          <a className='navbar-brand page-scroll' href='#page-top' style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <img src="img/logo.png" alt="" />
+          <span style={{ fontSize: '20px', fontWeight: '700', fontFamily: 'Montserrat, sans-serif', whiteSpace: 'nowrap', letterSpacing: '0.5px', marginTop: '28px' }}>
+            <span style={{ background: 'linear-gradient(135deg, #479ecb 0%, #f7fdff 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>winnyweb</span>
+            <span style={{ color: '#fff' }}>.com</span>
+          </span>
           </a>{' '}
         </div>
 
