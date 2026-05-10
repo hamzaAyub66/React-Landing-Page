@@ -2,6 +2,7 @@
   "name": "winnyweb",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://winnyweb.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "set \"BUILD_PATH=../server/web/browser\" && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

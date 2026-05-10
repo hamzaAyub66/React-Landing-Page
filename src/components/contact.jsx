@@ -45,10 +45,13 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' noValidate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
+                      <label htmlFor='name' className='sr-only'>
+                        Name
+                      </label>
                       <input
                         type='text'
                         id='name'
@@ -57,12 +60,16 @@ export const Contact = (props) => {
                         placeholder='Name'
                         required
                         onChange={handleChange}
+                        autoComplete='name'
                       />
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
                   <div className='col-md-6'>
                     <div className='form-group'>
+                      <label htmlFor='email' className='sr-only'>
+                        Email
+                      </label>
                       <input
                         type='email'
                         id='email'
@@ -71,12 +78,16 @@ export const Contact = (props) => {
                         placeholder='Email'
                         required
                         onChange={handleChange}
+                        autoComplete='email'
                       />
                       <p className='help-block text-danger'></p>
                     </div>
                   </div>
                 </div>
                 <div className='form-group'>
+                  <label htmlFor='message' className='sr-only'>
+                    Message
+                  </label>
                   <textarea
                     name='message'
                     id='message'
@@ -105,20 +116,34 @@ export const Contact = (props) => {
                 {props.data ? props.data.address : 'loading'}
               </p>
             </div>
-            {/* <div className='contact-item'>
+            <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-whatsapp'></i> WhatsApp
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {props.data ? (
+                  <a
+                    href={props.data.whatsapp}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    {props.data.phone}
+                  </a>
+                ) : (
+                  'loading'
+                )}
               </p>
-            </div> */}
+            </div>
             <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {props.data ? (
+                  <a href={`mailto:${props.data.email}`}>{props.data.email}</a>
+                ) : (
+                  'loading'
+                )}
               </p>
             </div>
           </div>
@@ -127,36 +152,31 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a
+                      href={props.data ? props.data.facebook : '#'}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      aria-label='WinnyWeb on Facebook'
+                    >
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  {/* <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                  <li>
+                    <a
+                      href={props.data ? props.data.whatsapp : '#'}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      aria-label='Contact WinnyWeb on WhatsApp'
+                    >
+                      <i className='fa fa-whatsapp'></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div id='footer'>
-        <div className='container text-center'>
-          <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
-          </p>
-        </div>
-      </div> */}
     </div>
   )
 }

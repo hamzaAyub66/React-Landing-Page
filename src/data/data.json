@@ -4,62 +4,62 @@
     "paragraph": "Forget Past Mistakes. Forget Failures. Forget Everything except what you're going to do now and to do it."
   },
   "About": {
-    "paragraph": "At WinnyWeb, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development, tailor made applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.",
+    "paragraph": "At WinnyWeb we design and build digital products that fit how your business works: web and mobile apps, integrations, cloud setups, and online commerce. From discovery through launch and ongoing improvements, we focus on clear communication, solid engineering, and outcomes you can measure.",
     "Why": [
-      "Team Managemnt",
+      "Team Management",
       "Problem Solving",
       "Working on Latest Technologies",
       "Positive and Inspiring Company Culture"
     ],
     "Why2": [
-      "100% Customer Satisfication",
-      "Quality project Delivery",
-      " Creative and Focused Company Staff"
+      "100% Customer Satisfaction",
+      "Quality Project Delivery",
+      "Creative and Focused Company Staff"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Corporate Web Platform",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "E-Commerce Storefront",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Analytics Dashboard",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Brand & Marketing Site",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Customer Self-Service Portal",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Mobile-First Product UI",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "API & Admin Console",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Responsive Site Redesign",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Enterprise Integration Layer",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -124,7 +124,7 @@
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Great Hamza,I was delighted to work with him. Very comprehensive React app built and professionally implemented. Will work with him again for sure. Highly recommended..\"",
+      "text": "\"Great Hamza, I was delighted to work with him. Very comprehensive React app built and professionally implemented. Will work with him again for sure. Highly recommended..\"",
       "name": "Dean Flanagan"
     }
   ],
@@ -151,12 +151,11 @@
     }
   ],
   "Contact": {
-    "address": "Multan, Pakistan ",
-    "phone": "+923226127442",
+    "address": "Multan, Pakistan",
+    "phone": "+923396127442",
+    "whatsapp": "https://wa.me/923396127442",
     "email": "contact@winnyweb.com",
-    "facebook": "https://www.facebook.com/winnyweb",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "facebook": "https://www.facebook.com/winnyweb"
   },
   "Features": [
     {

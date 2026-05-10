@@ -631,6 +631,13 @@ label {
 #contact .contact-item i.fa {
   margin-right: 10px;
 }
+#contact .contact-item a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: underline;
+}
+#contact .contact-item a:hover {
+  color: #fff;
+}
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
@@ -655,7 +662,31 @@ label {
   color: #608dfd;
   background: #fff;
 }
-/* Footer Section*/
+a:focus-visible,
+.btn:focus-visible,
+.navbar-toggle:focus-visible,
+#contact .social a:focus-visible {
+  outline: 3px solid #5ca9fb;
+  outline-offset: 2px;
+}
+
+@media (max-width: 991px) {
+  #menu.navbar-default .navbar-nav > li > a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .navbar-toggle {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
