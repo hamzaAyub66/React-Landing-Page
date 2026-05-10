@@ -12,7 +12,6 @@
       "Positive and Inspiring Company Culture"
     ],
     "Why2": [
-      "24/7 Support",
       "100% Customer Satisfication",
       "Quality project Delivery",
       " Creative and Focused Company Staff"
@@ -69,32 +68,47 @@
     {
       "icon": "fa fa-laptop",
       "name": "Web Application",
-      "text": "Our website developers provide expert web application development and web design services to our clients. WinnyWeb offers a variety of website design and development services, responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies. like Reactjs, Vuejs, Angularjs etc"
+      "text": "Responsive web apps and sites using React, Vue, Angular, and proven modern stacks."
     },
     {
       "icon": "fa fa-mobile",
-      "name": "Mobile Application",
-      "text": "We have all the expertise you need to produce fully-fledged, stable, and scalable mobile applications, including Swift, SwiftUI, Kotlin"
+      "name": "Mobile App Development",
+      "text": "iOS and Android apps designed for smooth, reliable user experiences."
+    },
+    {
+      "icon": "fa fa-shopping-cart",
+      "name": "E-Commerce Solutions",
+      "text": "Online stores with product pages, checkout, and secure payment setup."
+    },
+    {
+      "icon": "fa fa-cloud",
+      "name": "Cloud Infrastructure",
+      "text": "AWS, Azure, and cloud setup, deployment, monitoring, and management."
+    },
+    {
+      "icon": "fa fa-lightbulb-o",
+      "name": "AI-Driven Development",
+      "text": "Smart web and app solutions powered by AI tools and intelligent features."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Workflow Automation",
+      "text": "Automate repetitive business tasks to save time and reduce errors."
     },
     {
       "icon": "fa fa-key",
       "name": "API Integration",
-      "text": "To help you automate and streamline workflows, we achieve seamless integration of your web app/portal with a CMS and your software infrastructure via custom APIs. When adding new functional modules to already developed web solutions, our integration experts use the CI/CD pipeline to allow for smooth deployment without impeding the work of your web app."
+      "text": "Custom APIs that connect your app to CMS and backends, with CI/CD-friendly releases."
     },
     {
       "icon": "fa fa-search",
       "name": "Optimization and evolution",
-      "text": "To keep in sync with your business needs and user expectations, we continuously optimize and enhance your web app, introducing new relevant functionality. Relying on our mature DevOps culture, we deploy urgent fixes within 1-2 days and release planned app updates every 2-6 weeks."
-    },
-    {
-      "icon": "fa fa-life-ring",
-      "name": "24/7 Support",
-      "text": "Providing L1, L2 and L3 support levels, we troubleshoot your web app and resolve any emerging issues in usage, configurations or code. Our support ensures high availability and failsafe functionality of your web app, web portal, or another kind of a web-based solution, making for stability of workflows and high user satisfaction."
+      "text": "Ongoing tuning, quick fixes when needed, and steady releases as your product evolves."
     },
     {
       "icon": "fa fa-plane",
       "name": "UX/UI Designer",
-      "text": "WinnyWeb’s UX and UI experts create intuitive navigation and appealing interfaces for your web software. Our responsive web app design guarantees smooth digital experience across all devices, thus leading to higher user satisfaction and increased conversion rate."
+      "text": "Intuitive UX, strong visuals, and responsive layouts across desktop and mobile."
     }
   ],
   "Testimonials": [

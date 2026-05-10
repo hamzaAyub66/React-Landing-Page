@@ -1,25 +1,25 @@
 export const Services = (props) => {
   return (
-    <div id='services' className='text-center'>
+    <div id='services'>
       <div className='container'>
-        <div className='section-title'>
+        <div className='section-title text-center'>
           <h2>Our Services</h2>
-          {/* <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p> */}
         </div>
-        <div className='row'>
+        <div className='services-grid'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
-                  {' '}
-                  <i className={d.icon}></i>
-                  <div className='service-desc'>
+                <article
+                  key={`${d.name}-${i}`}
+                  className='service-card'
+                >
+                  <div className='service-card-icon' aria-hidden='true'>
+                    <i className={d.icon}></i>
+                  </div>
+                  <div className='service-card-body'>
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
                   </div>
-                </div>
+                </article>
               ))
             : 'loading'}
         </div>
