@@ -4,6 +4,11 @@ export const Services = (props) => {
       <div className='container'>
         <div className='section-title text-center'>
           <h2>Our Services</h2>
+          <p className='services-special-link-wrap'>
+            <a href='/services/fbr-digital-invoicing'>
+              FBR Digital Invoicing Integration for Pakistan →
+            </a>
+          </p>
         </div>
         <div className='services-grid'>
           {props.data

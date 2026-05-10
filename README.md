@@ -2,6 +2,8 @@
 
 Marketing site for WinnyWeb (React, Create React App). Section copy and lists live in `src/data/data.json`.
 
+The **FBR Digital Invoicing Integration** service page lives at **`/services/fbr-digital-invoicing`** (see **`docs/SPRINT-FBR-DIGITAL-INVOICING.md`**). The host must serve **`index.html`** for that path (Apache: **`public/.htaccess`** in the build).
+
 ## Production URL
 
 Canonical site: **https://winnyweb.com/**  

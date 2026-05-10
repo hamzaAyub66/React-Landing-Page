@@ -327,6 +327,20 @@ header .intro-text {
 #services h2 {
   color: #fff;
 }
+#services .services-special-link-wrap {
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+#services .services-special-link-wrap a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#services .services-special-link-wrap a:hover {
+  color: #fff;
+}
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -700,6 +714,162 @@ a:focus-visible,
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+#fbr-service .fbr-disclaimer {
+  padding: 14px 0;
+  background: #f6f6f6;
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+#fbr-service .fbr-disclaimer strong {
+  color: #333;
+}
+#fbr-service .fbr-page-head {
+  padding: 32px 0 36px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
+#fbr-service .fbr-page-head h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px;
+  line-height: 1.25;
+}
+#fbr-service .fbr-page-head p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0 auto 18px;
+  max-width: 640px;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  #fbr-service .fbr-page-head {
+    padding: 28px 0 32px;
+  }
+  #fbr-service .fbr-page-head h1 {
+    font-size: 22px;
+  }
+}
+#fbr-service .fbr-hero-cta-row {
+  margin-top: 24px;
+}
+#fbr-service .fbr-hero-cta-row .btn + .btn {
+  margin-left: 12px;
+}
+@media (max-width: 768px) {
+  #fbr-service .fbr-hero-cta-row .btn {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  #fbr-service .fbr-hero-cta-row .btn + .btn {
+    margin-top: 14px;
+  }
+}
+#fbr-service .fbr-page-head .fbr-btn-outline-light {
+  background: transparent !important;
+  background-image: none !important;
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  color: #fff;
+}
+#fbr-service .fbr-page-head .fbr-btn-outline-light:hover {
+  background: #fff !important;
+  color: #608dfd;
+}
+#fbr-service .fbr-simple-main {
+  padding: 56px 0 72px;
+  background: #fff;
+}
+#fbr-service .fbr-simple-visual-wrap {
+  margin-bottom: 36px;
+  text-align: center;
+}
+#fbr-service .fbr-simple-visual-wrap img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#fbr-service .fbr-simple-block {
+  margin-bottom: 40px;
+}
+#fbr-service .fbr-simple-block:last-child {
+  margin-bottom: 0;
+}
+#fbr-service .fbr-simple-h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  position: relative;
+}
+#fbr-service .fbr-simple-h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 56px;
+  height: 3px;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#fbr-service .fbr-simple-main p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #666;
+  margin: 0 0 14px;
+}
+#fbr-service .fbr-simple-main ul,
+#fbr-service .fbr-simple-main ol {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #666;
+  padding-left: 22px;
+  margin: 0 0 12px;
+}
+#fbr-service .fbr-simple-main li {
+  margin-bottom: 8px;
+}
+#fbr-service .fbr-simple-main ol strong {
+  color: #444;
+}
+#fbr-service .fbr-simple-cta {
+  padding: 52px 0 60px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  text-align: center;
+}
+#fbr-service .fbr-simple-cta h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 12px;
+}
+#fbr-service .fbr-simple-cta > .container > p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 520px;
+  margin: 0 auto 22px;
+}
+#fbr-service .fbr-simple-cta .fbr-btn-outline-light {
+  background: transparent !important;
+  background-image: none !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+}
+#fbr-service .fbr-simple-cta .fbr-btn-outline-light:hover {
+  background: #fff !important;
+  color: #608dfd !important;
 }
 
 @media (max-width: 768px) {

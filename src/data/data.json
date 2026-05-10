@@ -20,48 +20,48 @@
   "Gallery": [
     {
       "title": "Corporate Web Platform",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "/img/portfolio/01-large.jpg",
+      "smallImage": "/img/portfolio/01-small.jpg"
     },
     {
       "title": "E-Commerce Storefront",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "/img/portfolio/02-large.jpg",
+      "smallImage": "/img/portfolio/02-small.jpg"
     },
     {
       "title": "Analytics Dashboard",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "/img/portfolio/03-large.jpg",
+      "smallImage": "/img/portfolio/03-small.jpg"
     },
     {
       "title": "Brand & Marketing Site",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "/img/portfolio/04-large.jpg",
+      "smallImage": "/img/portfolio/04-small.jpg"
     },
     {
       "title": "Customer Self-Service Portal",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "/img/portfolio/05-large.jpg",
+      "smallImage": "/img/portfolio/05-small.jpg"
     },
     {
       "title": "Mobile-First Product UI",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "/img/portfolio/06-large.jpg",
+      "smallImage": "/img/portfolio/06-small.jpg"
     },
     {
       "title": "API & Admin Console",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "/img/portfolio/07-large.jpg",
+      "smallImage": "/img/portfolio/07-small.jpg"
     },
     {
       "title": "Responsive Site Redesign",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "/img/portfolio/08-large.jpg",
+      "smallImage": "/img/portfolio/08-small.jpg"
     },
     {
       "title": "Enterprise Integration Layer",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "/img/portfolio/09-large.jpg",
+      "smallImage": "/img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
@@ -113,39 +113,39 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "/img/testimonials/01.jpg",
       "text": "\"Hands down, one of the best developers I have ever worked with. He is consistent, thorough and comprehends everything that needs to be done. If you need someone to get your project off the ground. Nabeel is the one to go to!\"",
       "name": " Makarchuk "
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "/img/testimonials/02.jpg",
       "text": "\"We had so many revisions along the way, and had to extend our deadline multiple times because of our own delays. Nabeel was nothing but professional, and extremely patient in letting us figure out and make changes to the final product. This is the second time we have used him and will continue to use him on projects in the future.\"",
       "name": "Johnathan"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "/img/testimonials/05.jpg",
       "text": "\"Great Hamza, I was delighted to work with him. Very comprehensive React app built and professionally implemented. Will work with him again for sure. Highly recommended..\"",
       "name": "Dean Flanagan"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "/img/team/01.jpg",
       "name": "Nabeel Shafique",
       "job": "Senior Software Engineer"
     },
     {
-      "img": "img/team/02.jpeg",
+      "img": "/img/team/02.jpeg",
       "name": "Hamza Ayub",
       "job": "Front-End Developer"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "/img/team/03.jpg",
       "name": "Jane Doe",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "/img/team/04.jpg",
       "name": "Karen Doe",
       "job": "Project Manager"
     }
@@ -153,6 +153,7 @@
   "Contact": {
     "address": "Multan, Pakistan",
     "phone": "+923396127442",
+    "phoneDisplayLocal": "03396127442",
     "whatsapp": "https://wa.me/923396127442",
     "email": "contact@winnyweb.com",
     "facebook": "https://www.facebook.com/winnyweb"

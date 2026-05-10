@@ -10,7 +10,8 @@ Single-page marketing site for WinnyWeb, built with **Create React App** (`react
 
 | Path | Role |
 |------|------|
-| `src/App.jsx` | Top-level layout; imports sections and JSON data |
+| `src/App.jsx` | URL path selects **Home** vs **`FbrDigitalInvoicing`**; SmoothScroll export |
+| `src/pages/` | Full-page views (`Home.jsx`, `FbrDigitalInvoicing.jsx`) |
 | `src/components/` | React components (`navigation`, `header`, `about`, `services`, `gallery`, `testimonials`, `contact`) |
 | `src/data/data.json` | Copy and structured lists for About, Services, Gallery, Testimonials, Contact, etc. |
 | `public/` | Static assets copied verbatim into the build: `index.html`, `css/`, `img/`, `fonts/`, `.htaccess` |
@@ -25,8 +26,9 @@ Single-page marketing site for WinnyWeb, built with **Create React App** (`react
 
 Output directory is configured in **`.env.production`** as `BUILD_PATH=../server/web/browser`, so the bundle is written to **`../server/web/browser`** relative to this repo (next to the server deploy tree). No Windows-only `set` command is required.
 
-**Apache hosting:** `public/.htaccess` is copied into the build for SPA-style fallback to `index.html` where `mod_rewrite` is enabled.
+**Apache hosting:** `public/.htaccess` is copied into the build for SPA-style fallback to `index.html` where `mod_rewrite` is enabled. The service URL **`/services/fbr-digital-invoicing`** must resolve to `index.html` (same as other client-rendered paths).
 
+**Service page sprint:** See **`docs/SPRINT-FBR-DIGITAL-INVOICING.md`** for the FBR Digital Invoicing Integration deliverable and QA notes.
 Do not point production builds at folders that must keep unrelated files unless the team agrees; clearing the output directory is standard for static exports.
 
 ## Editing conventions
