@@ -16,14 +16,14 @@ const normalizePath = (pathname) => {
 };
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
+  // const [landingPageData, setLandingPageData] = useState({});
   const [path, setPath] = useState(() =>
     normalizePath(window.location.pathname)
   );
 
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+  // useEffect(() => {
+  //   setLandingPageData(JsonData);
+  // }, []);
 
   useEffect(() => {
     const syncPath = () =>
@@ -36,7 +36,7 @@ const App = () => {
     return <FbrDigitalInvoicing />;
   }
 
-  return <Home landingPageData={landingPageData} />;
+  return <Home landingPageData={JsonData} />;
 };
 
 export default App;
