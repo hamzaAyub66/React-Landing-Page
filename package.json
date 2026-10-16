@@ -1,6 +1,6 @@
 {
   "name": "winnyweb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "homepage": "https://winnyweb.com",
   "dependencies": {
@@ -14,6 +14,7 @@
     "smooth-scroll": "^16.1.3"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

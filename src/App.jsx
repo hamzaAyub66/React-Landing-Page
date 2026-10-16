@@ -3,6 +3,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { Home } from "./pages/Home";
 import { FbrDigitalInvoicing } from "./pages/FbrDigitalInvoicing";
+import { TinTanglePrivacy } from "./pages/TinTanglePrivacy";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -34,6 +35,10 @@ const App = () => {
 
   if (path === "/services/fbr-digital-invoicing") {
     return <FbrDigitalInvoicing />;
+  }
+
+  if (path === "/tintangle/privacy") {
+    return <TinTanglePrivacy />;
   }
 
   return <Home landingPageData={JsonData} />;

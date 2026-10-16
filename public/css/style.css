@@ -885,3 +885,99 @@ a:focus-visible,
     margin: 50px 0;
   }
 }
+
+#tintangle-privacy {
+  min-height: 100vh;
+  background: #fafafa;
+}
+#tintangle-privacy .legal-page-head {
+  padding: 48px 0 36px;
+  background: linear-gradient(135deg, #1a1f2e 0%, #2d3561 55%, #3d4a8a 100%);
+  color: #fff;
+  text-align: center;
+}
+#tintangle-privacy .legal-page-brand {
+  font-family: "Montserrat", "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 10px;
+}
+#tintangle-privacy .legal-page-head h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 10px;
+}
+#tintangle-privacy .legal-page-updated {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+#tintangle-privacy .legal-page-main {
+  padding: 40px 0 64px;
+}
+#tintangle-privacy .legal-page-article {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  padding: 36px 40px 44px;
+}
+#tintangle-privacy .legal-page-article section {
+  margin-top: 28px;
+}
+#tintangle-privacy .legal-page-article h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 12px;
+}
+#tintangle-privacy .legal-page-article p,
+#tintangle-privacy .legal-page-article li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+#tintangle-privacy .legal-page-article p {
+  margin: 0 0 14px;
+}
+#tintangle-privacy .legal-page-article ul {
+  padding-left: 22px;
+  margin: 0 0 14px;
+}
+#tintangle-privacy .legal-page-article li {
+  margin-bottom: 8px;
+}
+#tintangle-privacy .legal-page-article a {
+  color: #608dfd;
+}
+#tintangle-privacy .legal-page-article a:hover {
+  text-decoration: underline;
+}
+#tintangle-privacy .legal-page-article code {
+  font-size: 13px;
+  background: #f2f4f8;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #333;
+}
+@media (max-width: 767px) {
+  #tintangle-privacy .legal-page-head {
+    padding: 36px 0 28px;
+  }
+  #tintangle-privacy .legal-page-head h1 {
+    font-size: 26px;
+  }
+  #tintangle-privacy .legal-page-article {
+    padding: 24px 18px 32px;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+}
