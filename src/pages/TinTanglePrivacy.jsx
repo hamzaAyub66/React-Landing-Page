@@ -130,19 +130,30 @@ export const TinTanglePrivacy = () => {
                 measurement, security and fraud prevention.
               </p>
               <p>
-                Our current ad requests are configured as non-personalized. Where
-                applicable, a consent message provides information and choices
-                about advertising data use. You can revisit available choices
-                using Settings → Advertising privacy. Device settings may offer
-                additional advertising-identifier and privacy controls. Gameplay
-                analytics consent is separate from advertising choices.
+                We apply Google&apos;s under-age-of-consent advertising treatment
+                to everyone without asking for or storing your age. Ad
+                personalization is disabled, ad content is limited to
+                general-audience creatives, and our requests are also configured
+                as non-personalized. These conservative advertising settings do
+                not change TinTangle&apos;s intended audience of people aged 13
+                and older. Google&apos;s consent-management SDK checks applicable
+                requirements; in this restricted mode it may determine that no
+                advertising consent form is required. You can check available
+                options using Settings → Advertising privacy. Device settings may
+                offer additional privacy controls. Gameplay analytics consent is
+                separate from advertising settings. Restricted advertising can
+                still involve the limited data processing described above.
               </p>
               <p>
-                Interstitial ads are restricted to natural transitions between
-                completed puzzles. Core gameplay does not depend on ads loading.
-                The Remove Ads purchase disables interstitial advertising; it
-                does not automatically change your separate gameplay-analytics
-                preference. Hints are free in the current version.
+                Banner ads may appear in a dedicated area at the top of the Home,
+                Progress, Settings and puzzle screens after the first five
+                collection levels are cleared. They are separated from puzzle
+                controls. Interstitial ads are restricted to natural transitions
+                between completed puzzles. Core gameplay does not depend on ads
+                loading. The Remove Ads purchase disables banner and interstitial
+                advertising; it does not automatically change your separate
+                gameplay-analytics preference. Hints are free in the current
+                version.
               </p>
             </section>
 
